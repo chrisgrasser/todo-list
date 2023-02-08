@@ -1,0 +1,113 @@
+/* background image */
+
+html {
+    background-image: url('../img/pawel-czerwinski-d7iIvTyzccY-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgba(0, 0, 0, 0);
+}
+
+.container {
+    background: rgba(255, 255, 255, .7);
+    height: 100%;
+}
+
+/* buttons */
+
+.btn-primary {
+    background-color: #d85088;
+    border-color: #d85088;
+    border-radius: 5px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #b81858;
+    border-color: #b81858;
+}
+
+.btn-secondary {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #f06898;
+    border-color: #f06898;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+    background-color: #c84078;
+    border-color: #c84078;
+}
+
+.complete {
+    background-color: #ae5bd7;
+    border-color: #ae5bd7;
+}
+
+.complete:hover, .complete:focus {
+    background-color: darkmagenta;
+    border-color: darkmagenta;
+}
+
+/* Custom Headers */
+
+.header {
+    border-bottom: 1px solid rgba(176, 48, 104, .7);
+}
+
+h3 {
+    color: #e05088;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+h4 {
+    margin: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h5 {
+    margin: 0;
+}
+
+/* divs */
+
+.newNote {
+    background-color: #f8d0e0;
+    border-radius: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+label {
+    margin: 0;
+}
+
+/* footer */
+
+.footer {
+    border-top: 1px solid rgba(176, 48, 104, .7);
+}
+
+/* container width */
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
